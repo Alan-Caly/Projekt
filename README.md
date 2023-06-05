@@ -1,2 +1,2 @@
 # Projekt
-Wypożyczania samochodów
+Wypożyczalnia samochodów
