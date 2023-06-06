@@ -61,19 +61,10 @@
             </form>
 
             <div class="dropdown text-end">
-                <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle"
-                   data-bs-toggle="dropdown" aria-expanded="false">
-                    <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
-                </a>
-                <ul class="dropdown-menu text-small" style="">
-                    <li><a class="dropdown-item" href="#">New project...</a></li>
-                    <li><a class="dropdown-item" href="#">Settings</a></li>
-                    <li><a class="dropdown-item" href="#">Profile</a></li>
-                    <li>
-                        <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="#">Sign out</a></li>
-                </ul>
+                <div class="d-block link-body-emphasis text-decoration-none">
+                    <img src="/public/img/person-circle.svg" width="32" height="32" class="rounded-circle">
+                    <img src="/public/img/caret-down.svg" width="15" height="15">
+                </div>
             </div>
         </div>
     </div>
@@ -84,7 +75,12 @@
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                 <div class="col">
                     <div class="card shadow-sm">
-                        <img src="/public/img/volkt-cross.png" width="100%" height="100%">
+                        <div class="position-relative" >
+                            <svg class="bi bi-bookmark position-absolute top-0 start-0" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16" width="32px" height="23px">
+                                <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
+                            </svg>
+                            <img class="rounded" src="/public/img/volkt-cross.png" width="100%" height="100%">
+                        </div>
                         <text class="text-md-center font-weight-bold h3 pt-2" x="50%" y="50%" fill="#eceeef" dy=".3em">
                             Volkswagen T-Cross
                         </text>
