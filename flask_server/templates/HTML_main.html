@@ -10,19 +10,23 @@
     {% include "scripts/SCRIPTSredirecting.html" %}
 </head>
 <body class="has-bg-image" style="background-image: url('/public/img/back.jpg');height: 100vh">
-<header class="p-3 mb-3 border-bottom sticky-top bg-white rounded-bottom">
-    <div class="container">
+<header class=" mb-3 border-bottom sticky-top bg-white rounded-bottom">
+    <div class="pr-5">
         <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
-                <img src="{{ url_for('static', filename='img/logo.png') }}" class="bi me-2" width="100">
-            </a>
-
+            <div>
+                <a href="/" class=" d-inline-flex align-items-center mt-2" style="left: 0px;">
+                    <img src="{{ url_for('static', filename='img/logo.png') }}" class="bi me-2" width="200"
+                         height="100">
+                </a>
+            </div>
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-                <li><a href="#" class="nav-link mt-1 px-2 link-secondary d-flex">About us</a></li>
-                <li><a href="#" class="nav-link mt-1 px-2 link-body-emphasis d-flex">Contact</a></li>
+                <li><a href="#" class="mt-1 px-2 btn btn-outline-secondary d-inline-flex align-items-center m-1">About
+                    us</a></li>
+                <li><a href="#" class="mt-1 px-2 btn btn-outline-secondary d-inline-flex align-items-center mr-5 ml-1">Contact</a>
+                </li>
                 <li>
-                    <div class="dropdown nav-link px-2 link-body-emphasis">
-                        <button class="dropbtn d-flex">Sort by</button>
+                    <div class="mt-1 mr-1">
+                        <button class="btn btn-outline-secondary dropdown-toggle">Sort by</button>
                         <div class="dropdown-content invisible d-none">
                             <a href="#">Featured</a>
                             <a href="#">Price: High to Low</a>
@@ -32,8 +36,8 @@
                     </div>
                 </li>
                 <li>
-                    <div class="checklist nav-link px-2 link-body-emphasis ">
-                        <button class="chklist d-flex">Filters</button>
+                    <div class="checklist mt-1 ml-1">
+                        <button class="btn btn-outline-secondary dropdown-toggle">Filters</button>
                         <div class="checklist-content invisible d-none">
                             <input class="chkbox d-flex" type="checkbox">brand</input>
                             <div class="brand-content">
@@ -75,8 +79,10 @@
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                 <div class="col">
                     <div class="card shadow-sm">
-                        <div class="position-relative" >
-                            <svg class="bi bi-bookmark position-absolute top-0 start-0" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16" width="32px" height="23px">
+                        <div class="position-relative">
+                            <svg class="bi bi-bookmark position-absolute top-0 start- pt-2"
+                                 xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16" width="32px"
+                                 height="32px">
                                 <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"/>
                             </svg>
                             <img class="rounded" src="/public/img/volkt-cross.png" width="100%" height="100%">
