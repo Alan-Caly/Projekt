@@ -8,3 +8,7 @@ def test():
 @app.route('/login')
 def login():
     return render_template('HTML_login.html')
+
+@app.route('/register')
+def register():
+    return render_template('HTML_register.html')
