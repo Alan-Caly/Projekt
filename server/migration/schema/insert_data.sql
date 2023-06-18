@@ -10,7 +10,7 @@ INSERT INTO brand (brand_name)
 VALUES ('Volkswagen');
 
 INSERT INTO brand (brand_name)
-VALUES ('honda');
+VALUES ('Honda');
 
 INSERT INTO brand (brand_name)
 VALUES ('Audi');
@@ -26,6 +26,9 @@ VALUES ('Hyundai');
 
 INSERT INTO brand (brand_name)
 VALUES ('Citroen');
+
+INSERT INTO brand (brand_name)
+VALUES ('Toyota');
 
 --|||||||||||||||||||||||||||||||||||||||
 
@@ -77,3 +80,27 @@ INSERT INTO engine_type (engine_type_name) VALUES ('BEV(Electric)');
 
 --|||||||||||||||||||||||||||||||||||||||
 
+INSERT INTO car (picture, id_brand, id_color, id_body_type, id_gear_box, id_seats, id_engine_type)
+VALUES ('Audi A7', 3, 12, 4, 1, 2, 4);
+INSERT INTO car (picture, id_brand, id_color, id_body_type, id_gear_box, id_seats, id_engine_type)
+VALUES ('Audi Q3', 3, 5, 3, 1, 2, 3);
+INSERT INTO car (picture, id_brand, id_color, id_body_type, id_gear_box, id_seats, id_engine_type)
+VALUES ('Citroen C4 X', 7, 9, 4, 1, 2, 4);
+INSERT INTO car (picture, id_brand, id_color, id_body_type, id_gear_box, id_seats, id_engine_type)
+VALUES ('Corolla TS', 8, 11, 2, 2, 2, 1);
+INSERT INTO car (picture, id_brand, id_color, id_body_type, id_gear_box, id_seats, id_engine_type)
+VALUES ('Honda Civic XI', 2, 1, 4, 2, 2, 2);
+INSERT INTO car (picture, id_brand, id_color, id_body_type, id_gear_box, id_seats, id_engine_type)
+VALUES ('Honda CR-v', 2, 1, 3, 2, 2, 2);
+INSERT INTO car (picture, id_brand, id_color, id_body_type, id_gear_box, id_seats, id_engine_type)
+VALUES ('Hyundai i30 N', 6, 18, 1, 2, 2, 1);
+INSERT INTO car (picture, id_brand, id_color, id_body_type, id_gear_box, id_seats, id_engine_type)
+VALUES ('Mercedes AMG E63', 4, 9, 3, 1, 2, 2);
+INSERT INTO car (picture, id_brand, id_color, id_body_type, id_gear_box, id_seats, id_engine_type)
+VALUES ('Renault Austral', 5, 15, 3, 1, 2, 1);
+INSERT INTO car (picture, id_brand, id_color, id_body_type, id_gear_box, id_seats, id_engine_type)
+VALUES ('Toyota GR Supra', 8, 4, 6, 2, 1, 2);
+INSERT INTO car (picture, id_brand, id_color, id_body_type, id_gear_box, id_seats, id_engine_type)
+VALUES ('Volkswagen Golf VII', 1, 10, 1, 2, 1, 1);
+INSERT INTO car (picture, id_brand, id_color, id_body_type, id_gear_box, id_seats, id_engine_type)
+VALUES ('Volkswagen T-Cross', 1, 5, 3, 1, 2, 2);

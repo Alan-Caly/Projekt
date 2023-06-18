@@ -69,7 +69,7 @@ class Database:
     @classmethod
     def fetchmany(cls, _how_many: int = 1):
         """ Fetch many rows from the database """
-        return cls.__cursor.fetchmany(_howmany)
+        return cls.__cursor.fetchmany(_how_many)
 
     @classmethod
     def open(cls):
