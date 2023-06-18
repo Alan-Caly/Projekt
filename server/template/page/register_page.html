@@ -3,16 +3,18 @@
 
 <!-- set title for page -->
 {% block title %}Login{% endblock %}
+{% block header %} {% endblock %}
+{% block footer %} {% endblock %}
 
 <!-- set content for page -->
 {% block content %}
 <main class="form-signin w-100 mt-1 mr-5 ml-5 d-flex justify-content-center align-items-center flex-column">
     <div class="d-flex justify-content-center">
         <div>
-            <div class="card shadow-sm d-flex justify-content-center align-items-center flex-column">
+            <div class="card shadow-sm d-flex justify-content-center align-items-center flex-column" style="margin-top: 25%;">
                     <img class="mt-2" src="{{ url_for('static', filename='page_element/image/logo.png') }}" width="200" height="100"
                          style="justify-self-center">
-                <form class="mr-5 ml-5">
+                <form class="mr-5 ml-5 p-5">
                     <h1 class="h3 mb-3 fw-normal">Register</h1>
                     <div class="form-floating p-1">
                         <input type="email" class="form-control" id="floatingInput"
