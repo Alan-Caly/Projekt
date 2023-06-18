@@ -1,0 +1,44 @@
+<!-- extends main structure page -->
+{% extends "base/main_template_web.html" %}
+
+<!-- set title for page -->
+{% block title %}Login{% endblock %}
+
+<!-- set content for page -->
+{% block content %}
+<main class="form-signin w-100 mt-1 mr-5 ml-5 d-flex justify-content-center align-items-center flex-column">
+    <div class="d-flex justify-content-center">
+        <div>
+            <div class="card shadow-sm d-flex justify-content-center align-items-center flex-column">
+                <img class="mt-2" src="{{ url_for('static', filename='page_element/image/logo.png') }}" width="200" height="100"
+                     style="justify-self-center">
+                <form class="mr-5 ml-5">
+                    <h1 class="h3 mb-3 fw-normal">Sign in</h1>
+                    <div class="form-floating p-1">
+                        <input type="email" class="form-control" id="floatingInput"
+                               placeholder="name@example.com" style="user-select: none">
+                        <label for="floatingInput">Email address</label>
+                    </div>
+                    <div class="form-floating p-1">
+                        <input type="password" class="form-control"
+                               id="floatingPassword"
+                               placeholder="Password" style="user-select: none">
+                        <label for="floatingPassword">Password</label>
+                    </div>
+                    <div class="form-check text-start my-3 justify-content-center align-items-center d-flex">
+                        <div class="p-4">
+                            <input class="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">Remember me</label>
+                        </div>
+                        <a href="/register"
+                           class="btn btn-outline-secondary d-inline-flex align-items-center m-1">Register</a>
+                    </div>
+                    <button class="btn btn-primary w-100 py-2" type="submit">Sign in
+                    </button>
+                    <p class="mt-2 mb-3 text-body-secondary">&copy; 2023</p>
+                </form>
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock %}

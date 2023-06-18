@@ -1,0 +1,31 @@
+FLASK_SERVER::
+    INOF:
+        Car Rental App
+
+        The Car Rental App is a user-friendly application designed to facilitate the process of renting cars.
+        With this app, users can easily find and rent cars from a wide range of trusted car rental companies.
+        One of the key features of the app is its ability to provide contact information for selected car sellers.
+
+
+    COMMAND:
+        '--start-server' ::-> This command starts the application server.
+                            After execution, the application will be ready to receive requests and serve clients.
+
+        '--init-database' :: -> This command initializes the application database.
+                             If the database already exists, executing this command will delete and recreate it.
+                             This is useful for restoring the database to its initial state.
+
+        '--start-test' ::-> This command runs server tests.
+                          The tests validate the functionality and security measures of the server.
+                          After the tests are executed, information about the results will be displayed.
+
+        '--help' ::-> This command provides current information about the application.
+                    You can find helpful tips on using the server and a description of the available commands.
+
+        'exit' ::-> This command closes the application.
+                  Upon execution, the server will be shut down, and the application will be closed.
+
+    AUTHOR:
+        The developers of the application are:
+            -> Obły
+            -> FIlip

@@ -1,0 +1,62 @@
+<header class=" mb-3 border-bottom sticky-top bg-white rounded-bottom">
+    <div class="pr-5">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <div>
+                <a href="/login" class=" d-inline-flex align-items-center mt-2" style="left: 0px;">
+                    <img src="{{ url_for('static', filename='page_element/image/logo.png') }}" class="bi me-2" width="200"
+                         height="100">
+                </a>
+            </div>
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="#" class="mt-1 px-2 btn btn-outline-secondary d-inline-flex align-items-center m-1">About
+                    us</a></li>
+                <li><a href="#" class="mt-1 px-2 btn btn-outline-secondary d-inline-flex align-items-center mr-5 ml-1">Contact</a>
+                </li>
+                <li>
+                    <div class="mt-1 mr-1">
+                        <button class="btn btn-outline-secondary dropdown-toggle">Sort by</button>
+                        <div class="dropdown-content invisible d-none">
+                            <a href="#">Featured</a>
+                            <a href="#">Price: High to Low</a>
+                            <a href="#">Price: Low to High</a>
+                            <a href="#">Best Sellers</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="checklist mt-1 ml-1">
+                        <button class="btn btn-outline-secondary dropdown-toggle">Filters</button>
+                        <div class="checklist-content invisible d-none">
+                            <input class="chkbox d-flex" type="checkbox">brand</input>
+                            <div class="brand-content">
+                                <a href="#">a</a>
+                                <a href="#">b</a>
+                                <a href="#">c</a>
+                            </div>
+                            <input class="chkbox d-flex" type="checkbox">body type</input>
+                            <div class="dropdown-content">
+                                <a href="#">a</a>
+                                <a href="#">b</a>
+                                <a href="#">c</a>
+                            </div>
+                            <input class="chkbox d-flex" type="checkbox">gearbox</input>
+                            <div class="dropdown-content">
+                                <a href="#">Automatic</a>
+                                <a href="#">Manual</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 d-flex w-50 p-3" role="search">
+                <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+            </form>
+            <div class="dropdown text-end">
+                <div class="d-block link-body-emphasis text-decoration-none">
+                    <img src="/static/page_element/image/person-circle.svg" width="32" height="32" class="rounded-circle">
+                    <img src="/static/page_element/image/caret-down.svg" width="15" height="15">
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
