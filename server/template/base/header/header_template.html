@@ -2,7 +2,7 @@
     <div class="pr-5">
         <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
             <div>
-                <a href="/login" class=" d-inline-flex align-items-center mt-2" style="left: 0px;">
+                <a class=" d-inline-flex align-items-center mt-2" style="left: 0px;">
                     <img src="{{ url_for('static', filename='page_element/image/logo.png') }}" class="bi me-2"
                          width="200"
                          height="100">
@@ -11,7 +11,7 @@
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
                 <li><a href="#" class="px-2 btn btn-outline-secondary d-inline-flex align-items-center mt-1"
                        style="margin-left: 100px">About us</a></li>
-                <li><a href="#" class="px-2 btn btn-outline-secondary d-inline-flex align-items-center mt-1">Contact</a>
+                <li><a href="/contact" class="px-2 btn btn-outline-secondary d-inline-flex align-items-center mt-1">Contact</a>
                 </li>
                 <li>
                     <button class="btn btn-outline-secondary dropdown-toggle mt-1 d-block link-body-emphasis"
@@ -59,12 +59,7 @@
                     <img src="/static/page_element/image/caret-down.svg" width="15" height="15">
                 </a>
                 <ul class="dropdown-menu text-small">
-                    <li><a class="dropdown-item" href="#">Rent history</a></li>
-                    <li><a class="dropdown-item" href="#">Account data</a></li>
-                    <li>
-                        <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="#">Sign out</a></li>
+                    <li><a href="/login" class="dropdown-item" href="#">Sign In</a></li>
                 </ul>
             </div>
         </div>

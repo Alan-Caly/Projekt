@@ -18,3 +18,4 @@ serverSession = Session()
 import server.route.IndexController
 import server.route.LoginController
 import server.route.RegisterController
+import server.route.ContactController

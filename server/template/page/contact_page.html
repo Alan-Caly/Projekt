@@ -1,0 +1,29 @@
+<!-- extends main structure page -->
+{% extends "base/main_template_web.html" %}
+
+<!-- set title for page -->
+{% block title %}Login{% endblock %}
+{% block header %} {% endblock %}
+{% block footer %} {% endblock %}
+<!-- set content for page -->
+{% block content %}
+<main class="form-signin w-100 mt-1 mr-5 ml-5 d-flex justify-content-center align-items-center flex-column">
+    <div class="d-flex justify-content-center">
+        <div>
+            <div class="card shadow-sm d-flex justify-content-center align-items-center flex-column p-5"
+                 style="margin-top: 25%;">
+                <img class="mt-2" src="{{ url_for('static', filename='page_element/image/logo.png') }}" width="200"
+                     height="100"
+                     style="justify-self-center">
+                <div>
+                    <h6 class="text-uppercase mb-4 font-weight-bold">Contact us via:</h6>
+                    <p class="justify_content-center"><i class="fas fa-phone mr-3"></i> +48 88 888 888 88</p>
+                    <p class="justify_content-center"><i class="fas fa-print mr-3"></i> +48 00 000 000 00</p>
+                    <h5 class="justify_content-center">Or send us an email:</h5>
+                    <p class="justify_content-center"><i class="fas fa-envelope mr-3"></i> ceglonus@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock %}
