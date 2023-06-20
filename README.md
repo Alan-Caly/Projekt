@@ -15,15 +15,6 @@ Welcome to SZROT Car Rental! This repository contains all the necessary informat
 ## About SZROT Car Rental
 SZROT Car Rental is a leading car rental service providing high-quality vehicles at affordable prices. We have a diverse fleet of cars, ranging from compact cars for urban adventures to spacious SUVs for family trips. Our goal is to offer our customers a convenient and hassle-free experience when renting a car.
 
-## Getting Started
-To get started with SZROT Car Rental, you can follow these steps:
-
-1. Clone the repository: `git clone https://github.com/szrot-car-rental.git`
-2. Install the necessary dependencies: `npm install`
-3. Set up the database and configure the connection settings.
-4. Start the application: `npm start`
-5. Access the car rental system through the provided URL.
-
 ## Features
 SZROT Car Rental offers a wide range of features, including:
 
